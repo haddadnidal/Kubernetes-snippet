@@ -1,0 +1,21 @@
+".source.yaml":
+  "Create a POD":
+    "prefix": 'pod'
+    "body" : """
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ${1:myapp}
+  labels:
+    name: ${1:myapp}
+spec:
+  containers:
+  - name: ${1:myapp}
+    image: ${2:<Image>}
+    resources:
+      limits:
+        memory: "128Mi"
+        cpu: "500m"
+    ports:
+      - containerPort: ${3:<Port>}
+    """

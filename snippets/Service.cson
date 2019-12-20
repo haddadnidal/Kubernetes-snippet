@@ -1,0 +1,15 @@
+".source.yaml":
+  "Create a Service":
+    "prefix": 'Service'
+    "body" : """
+apiVersion: v1
+kind: Service
+metadata:
+  name: myapp
+spec:
+  selector:
+    app: myapp
+  ports:
+  - port: <Port>
+    targetPort: <Target Port>
+    """
