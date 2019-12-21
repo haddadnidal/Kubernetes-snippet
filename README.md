@@ -18,4 +18,4 @@ What does it contain
 
 More to be added.
 
-Language-yaml must be installed.
+[Language-yaml] (https://atom.io/packages/language-yaml) must be installed.
