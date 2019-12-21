@@ -20,7 +20,6 @@ What does it contain
 4- ConfigMAP
 
 `ConfigMap`
-
 5- Replication Controller
 
 `ReplicationController`
