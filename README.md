@@ -28,6 +28,3 @@ What does it contain
 More to be added.
 
 [Language-yaml](https://atom.io/packages/language-yaml) must be installed.
-
-therefore this is
-me bedore.
