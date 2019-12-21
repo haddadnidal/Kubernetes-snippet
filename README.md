@@ -3,9 +3,9 @@
 
 Kubernetes snippets V1
 
-What does it contain
+Snippets samples: 
 
-1- Pod
+1- Pods
 
 `Pod`
 
