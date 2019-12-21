@@ -1,7 +1,7 @@
 # kubernetes-snippets package
 
 
-Kubernetes snippets V1111
+Kubernetes snippets V1
 
 What does it contain
 
