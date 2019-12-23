@@ -5,11 +5,11 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: myapp
+  name: ${1:<myapp>}
 spec:
   selector:
-    app: myapp
+    app: ${1:<myapp>}
   ports:
-  - port: <Port>
-    targetPort: <Target Port>
+  - port: ${2:<Port>}
+    targetPort: ${3:<Target Port>}
     """

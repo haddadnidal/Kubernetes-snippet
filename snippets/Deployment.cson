@@ -5,18 +5,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: ${1:myapp}
+  name: ${1:<myapp>}
 spec:
   selector:
     matchLabels:
-      app: ${1:myapp}
+      app: ${1:<myapp>}
   template:
     metadata:
       labels:
-        app: ${1:myapp}
+        app: ${1:<myapp>}
     spec:
       containers:
-      - name: ${1:myapp}
+      - name: ${1:<myapp>}
         image: ${2:<Image>}
         ports:
         - containerPort: ${3:<Port>}

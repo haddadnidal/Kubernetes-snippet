@@ -3,27 +3,32 @@
 
 Kubernetes snippets V1
 
-Snippets samples: 
+Snippets samples:
 
 1- Pods
 
-`Pod`
+  `Pod`
 
 2- Deployment
 
-`Deployment`
+  `Deployment`
 
 3- Service
 
-`Service`
+  `Service`
 
 4- ConfigMAP
 
-`ConfigMap`
+  `ConfigMap`
 
-5- Replication Controller
+5-ReplicaSet
 
-`ReplicationController`
+  `ReplicaSet`
+
+6- Replication Controller
+
+  `ReplicationController`
+
 
 More to be added.
 
