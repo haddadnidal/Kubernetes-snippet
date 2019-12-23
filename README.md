@@ -6,9 +6,9 @@ Kubernetes snippets V1
 Snippets samples:
 
 1- Pods
-``` dif
+
   `Pod`
-```
+
 2- Deployment
 
   `Deployment`
