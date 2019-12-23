@@ -2,7 +2,7 @@
   "name": "kubernetes-snippets",
   "main": "./lib/kubernetes-snippets",
   "version": "0.3.0",
-  "description": "A short description of your package",
+  "description": "kubernetes-snippets",
   "keywords": [],
   "repository": "https://github.com/haddadnidal/Kubernetes-snippet",
   "license": "MIT",
