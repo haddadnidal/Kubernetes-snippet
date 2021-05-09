@@ -1,6 +1,6 @@
 ".source.yaml":
   "Create a Service":
-    "prefix": 'Service'
+    "prefix": "Service"
     "body" : """
 apiVersion: v1
 kind: Service
@@ -10,6 +10,7 @@ spec:
   selector:
     app: ${1:<myapp>}
   ports:
-  - port: ${2:<Port>}
+  - protocol: TCP
+    port: ${2:<Port>}
     targetPort: ${3:<Target Port>}
-    """
+"""
