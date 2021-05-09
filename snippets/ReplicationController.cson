@@ -1,6 +1,6 @@
 ".source.yaml":
   "Create a ReplicationController":
-    "prefix": 'ReplicationController'
+    "prefix": "ReplicationController"
     "body" : """
   apiVersion: v1
   kind: ReplicationController

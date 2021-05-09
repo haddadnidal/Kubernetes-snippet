@@ -1,6 +1,6 @@
 ".source.yaml":
-  "Create a ConfigMAP":
-    "prefix": 'ConfigMAP'
+  "Create a ConfigMap":
+    "prefix": "ConfigMap"
     "body": """
   apiVersion: v1
   kind: ConfigMap

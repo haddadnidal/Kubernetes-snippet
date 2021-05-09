@@ -1,6 +1,6 @@
 ".source.yaml":
   "Create a ReplicaSet":
-    "prefix": 'ReplicaSet'
+    "prefix": "ReplicaSet"
     "body" :"""
       apiVersion: apps/v1
       kind: ReplicaSet
@@ -20,5 +20,4 @@
             containers:
             - name: ${1:<myapp>}
               image: ${4:<image_source>}
-
-      """
+"""
