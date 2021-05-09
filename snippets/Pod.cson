@@ -1,6 +1,6 @@
 ".source.yaml":
-  "Create a POD":
-    "prefix": 'pod'
+  "Create a Pod":
+    "prefix": "Pod"
     "body" : """
 apiVersion: v1
 kind: Pod
@@ -18,4 +18,4 @@ spec:
         cpu: "500m"
     ports:
       - containerPort: ${3:<Port>}
-    """
+"""
