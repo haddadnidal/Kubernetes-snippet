@@ -21,13 +21,17 @@ Snippets samples:
 
   `ConfigMap`
 
-5-ReplicaSet
+5- ReplicaSet
 
   `ReplicaSet`
 
 6- Replication Controller
 
   `ReplicationController`
+  
+7- Secret
+
+  `Secret`
 
 More to be added.
 
