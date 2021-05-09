@@ -1,12 +1,15 @@
 ".source.yaml":
   "Create a Deployment":
-    "prefix": 'Deployment'
+    "prefix": "Deployment"
     "body" : """
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: ${1:<myapp>}
+  labels:
+    app: ${1:<myapp>}
 spec:
+  replicas: 1
   selector:
     matchLabels:
       app: ${1:<myapp>}
@@ -20,4 +23,4 @@ spec:
         image: ${2:<Image>}
         ports:
         - containerPort: ${3:<Port>}
-  """
+"""
