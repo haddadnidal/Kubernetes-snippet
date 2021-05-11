@@ -1,0 +1,15 @@
+".source.yaml":
+  "Create a PersistentVolume":
+    "prefix": "PersistentVolume"
+    "body" : """
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: ${1:<myapp>}
+spec:
+  capactiy:
+    storage: ${2:<storage>}
+  volumeMode: Filesystem
+  accessModes:
+  - ${3:<Access Mode>}
+"""
