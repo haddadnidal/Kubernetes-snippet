@@ -1,0 +1,16 @@
+".source.yaml":
+  "Create a PersistentVolumeClaim":
+    "prefix": "PersistentVolumeClaim"
+    "body" : """
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: ${1:<myapp>}
+spec:
+  accessModes:
+  - ${2:<Access Mode>}
+  resources:
+    requests:
+      storage: ${3:<storage>}
+  storageClassName: ${4:<Storage Class Name>}
+"""
