@@ -1,0 +1,14 @@
+".source.yaml":
+  "Create a StorageClass":
+    "prefix": "StorageClass"
+    "body" : """
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+metadata:
+  name: ${1:<myapp>}
+provisioner: ${2:<provisioner>}
+parameters:
+  type: ${3:<Disk Type>}
+  iopsPerGB: ${4:<iopsPerGB>}
+  fsType: ${5:<FS Type>}
+"""
