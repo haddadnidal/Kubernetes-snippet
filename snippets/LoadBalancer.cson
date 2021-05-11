@@ -1,0 +1,18 @@
+".source.yaml":
+  "Create a LoadBalancer Service":
+    "prefix": "LoadBalancer"
+    "body" : """
+apiVersion: v1
+kind: Service
+metadata:
+  name: ${1:<myapp>}
+spec:
+  type: LoadBalancer
+  selector:
+    app: ${1:<myapp>}
+  ports:
+  - protocol: TCP
+    port: ${2:<Port>}
+    targetPort: ${3:<Target Port>}
+    NodePort: ${4:<30000-32767>}
+"""
