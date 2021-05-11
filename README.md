@@ -17,7 +17,7 @@ Snippets samples:
 
   `Service`
 
-4- ConfigMAP
+4- ConfigMap
 
   `ConfigMap`
 
@@ -25,13 +25,38 @@ Snippets samples:
 
   `ReplicaSet`
 
-6- Replication Controller
+6- ReplicationController
 
   `ReplicationController`
   
 7- Secret
 
   `Secret`
+  
+8- Ingress
+
+  `Ingress`
+  
+9- LoadBalancer
+
+  `LoadBalancer`
+  
+10- NodePort
+
+  `LoadPort`
+  
+11- PersistentVolume
+
+  `PersistentVolume`
+  
+12- PersistentVolumeClaim
+
+  `PersistentVolumeClaim`
+  
+13- StorageClass
+
+  `StorageClass`
+
 
 More to be added.
 
