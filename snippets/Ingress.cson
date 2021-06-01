@@ -1,0 +1,21 @@
+".source.yaml":
+  "Create an Ingress":
+    "prefix": 'Ingress'
+    "body" : """
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ${1:<myapp-ingress>}
+spec:
+  rules:
+  - host: ${2:<myapp-domain-address>}
+    http:
+      paths:
+      - path: ${3:<myapp-path>}
+        pathType: Prefix
+        backend:
+          service:
+            name: ${4:<myapp-internal-service>}
+            port:
+              number: ${5:<port-number>}
+              """
